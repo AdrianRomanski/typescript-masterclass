@@ -94,11 +94,11 @@ function instanceOfTypeGuard() {
 
     const songName = getItemName(new Song('Wonderful Wonderful', 3000000));
 
-    console.log('Song name', songName);
+    // console.log('Song name', songName);
 
     const playlistName = getItemName(new Playlist(
         'The Best Songs', [new Song('The trooper', 30000)]
     ));
 
-    console.log('Playlist name', playlistName);
+    // console.log('Playlist name', playlistName);
 }
